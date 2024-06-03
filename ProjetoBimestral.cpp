@@ -26,7 +26,7 @@ int CustosProducao()
         cout << "Testes e refinamentos da geolocalizacao: 20-30 horas" << endl;
 
         cout << "3. Desenvolvimento da Interface de Usuario " << endl;
-        cout << "Criacao de telas principais (login, cadastro, mapa, perfil de usuário): 40-60 horas" << endl;
+        cout << "Criacao de telas principais (login, cadastro, mapa, perfil de usuÃ¡rio): 40-60 horas" << endl;
         cout << "Navegacao entre telas e integracao basica: 20-30 horas" << endl;
 
         cout << "4. Desenvolvimento do Sistema de Pontuacao" << endl;
@@ -297,7 +297,7 @@ int main()
         system("cls");
         TransacaoInterna();
     }
-    if (escolha != 1 && escolha != 2)
+    if (escolha != 0 && escolha != 1 && escolha != 2)
     {
         cout << "Escolha Incorreta" << endl;
         system("pause");
